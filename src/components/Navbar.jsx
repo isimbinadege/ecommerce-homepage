@@ -13,7 +13,7 @@ function Navbar() {
         <Link to="/" className='text-emerald-900 text-lg font-semibold hover:text-emerald-600'>Home</Link>
         <Link to="/Products" className='text-emerald-900 text-lg font-semibold hover:text-emerald-600'>Products</Link>
         <Link to="/About" className='text-emerald-900 text-lg font-semibold hover:text-emerald-600'>About us</Link>
-        <Link className='text-emerald-900 text-lg font-semibold hover:text-emerald-600'>Contact</Link>
+        <Link to="Contact" className='text-emerald-900 text-lg font-semibold hover:text-emerald-600'>Contact</Link>
       </div>
 
       <div className="md:hidden flex items-center">
