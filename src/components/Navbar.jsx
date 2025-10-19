@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-
+import About from "./About";
+import Products from "./Products";
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -9,9 +10,9 @@ function Navbar() {
       <h1 className='text-emerald-700 font-bold text-3xl italic'>🛍️E-<span className='text-emerald-900 text-xl'>commerce</span></h1>
 
       <div className='hidden md:flex gap-8 justify-end'>
-        <Link className='text-emerald-900 text-lg font-semibold hover:text-emerald-600'>Home</Link>
-        <Link className='text-emerald-900 text-lg font-semibold hover:text-emerald-600'>Products</Link>
-        <Link className='text-emerald-900 text-lg font-semibold hover:text-emerald-600'>About us</Link>
+        <Link to="/" className='text-emerald-900 text-lg font-semibold hover:text-emerald-600'>Home</Link>
+        <Link to="/Products" className='text-emerald-900 text-lg font-semibold hover:text-emerald-600'>Products</Link>
+        <Link to="/About" className='text-emerald-900 text-lg font-semibold hover:text-emerald-600'>About us</Link>
         <Link className='text-emerald-900 text-lg font-semibold hover:text-emerald-600'>Contact</Link>
       </div>
 
