@@ -1,5 +1,6 @@
 import React from "react";
 import { Facebook, Instagram, Twitter, Linkedin } from "lucide-react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -12,20 +13,20 @@ function Footer() {
           <p className="text-sm">&copy; {new Date().getFullYear()} E-commerce. All rights reserved.</p>
         </div>
 
-        {/* Quick Links */}
+       
         <div className="flex gap-6 text-sm font-semibold">
-          <a href="/" className="hover:text-emerald-400">Home</a>
-          <a href="/products" className="hover:text-emerald-400">Products</a>
-          <a href="/about" className="hover:text-emerald-400">About</a>
-          <a href="/contact" className="hover:text-emerald -400">Contact</a>
+          <Link to="/" className="hover:text-emerald-400">Home</Link>
+          <Link to="/Products" className="hover:text-emerald-400">Products</Link>
+          <Link to="/About" className="hover:text-emerald-400">About</Link>
+          <Link to="/Contact" className="hover:text-emerald-400">Contact</Link>
         </div>
 
         {/* Social Icons */}
         <div className="flex gap-4">
-          <a href="#" className="hover:text-orange-400"><Facebook className="w-5 h-5" /></a>
-          <a href="#" className="hover:text-orange-400"><Instagram className="w-5 h-5" /></a>
-          <a href="#" className="hover:text-orange-400"><Twitter className="w-5 h-5" /></a>
-          <a href="#" className="hover:text-orange-400"><Linkedin className="w-5 h-5" /></a>
+          <a href="#" className="hover:text-emerald-400"><Facebook className="w-5 h-5" /></a>
+          <a href="#" className="hover:text-emerald-400"><Instagram className="w-5 h-5" /></a>
+          <a href="#" className="hover:text-emerald-400"><Twitter className="w-5 h-5" /></a>
+          <a href="#" className="hover:text-emerald-400"><Linkedin className="w-5 h-5" /></a>
         </div>
 
       </div>

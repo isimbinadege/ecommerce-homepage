@@ -27,10 +27,10 @@ function Navbar() {
 
       {isOpen && (
         <div className="md:hidden bg-gradient-to-r from-white via-emerald-50 to-emerald-100 w-full absolute top-full left-0 ">
-          <Link className="block px-4 py-3 text-emerald-900 font-semibold hover:bg-emerald-200">Home</Link>
-          <Link className="block px-4 py-3 text-emerald-900 font-semibold hover:bg-emerald-200">Products</Link>
-          <Link className="block px-4 py-3 text-emerald-900 font-semibold hover:bg-emerald-200">About Us</Link>
-          <Link className="block px-4 py-3 text-emerald-900 font-semibold hover:bg-emerald-200">Contact</Link>
+          <Link to="/" className="block px-4 py-3 text-emerald-900 font-semibold hover:bg-emerald-200">Home</Link>
+          <Link to="/Products" className="block px-4 py-3 text-emerald-900 font-semibold hover:bg-emerald-200">Products</Link>
+          <Link to="/About"className="block px-4 py-3 text-emerald-900 font-semibold hover:bg-emerald-200">About Us</Link>
+          <Link to="/Contact" className="block px-4 py-3 text-emerald-900 font-semibold hover:bg-emerald-200">Contact</Link>
         </div>
       )}
     </nav>

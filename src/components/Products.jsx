@@ -1,47 +1,57 @@
 import React from "react";
 import ProductCard from "./ProductCard";
+import bagImage from "../assets/images/bag.jpeg";
+import bandImage from "../assets/images/band.jpeg";
+import bottleImage from "../assets/images/bottle.jpeg";
+import brushImage from "../assets/images/brush.jpeg";
+import lampImage from "../assets/images/lamp.jpeg";
+import glassesImage from "../assets/images/glasses.jpg";
+import necklaceImage from "../assets/images/necklace.jpg";
+import penImage from "../assets/images/pen.jpg";
+
+
 
 function Products() {
   const products = [
     {
-      name: "Wireless Headphones",
-      price: 59.99,
-      image: "https://via.placeholder.com/150",
+      name: "Tote",
+      price: 50,
+      image: bagImage,
     },
     {
-      name: "Smart Watch",
-      price: 89.99,
-      image: "https://via.placeholder.com/150",
+      name: "Bottle",
+      price: 80,
+      image: bottleImage,
     },
     {
-      name: "Bluetooth Speaker",
-      price: 39.99,
-      image: "https://via.placeholder.com/150",
+      name: "Head band",
+      price: 30,
+      image: bandImage,
     },
     {
-      name: "Laptop Bag",
+      name: "Lamp",
       price: 29.99,
-      image: "https://via.placeholder.com/150",
+      image: lampImage,
     },
     {
-      name: "Running Shoes",
+      name: "Brush",
       price: 74.99,
-      image: "https://via.placeholder.com/150",
+      image: brushImage,
     },
     {
       name: "Sunglasses",
       price: 24.99,
-      image: "https://via.placeholder.com/150",
+      image: glassesImage,
     },
     {
-      name: "Smartphone Case",
+      name: "Necklaces",
       price: 14.99,
-      image: "https://via.placeholder.com/150",
+      image: necklaceImage,
     },
     {
-      name: "Wireless Mouse",
+      name: "Different Pens",
       price: 19.99,
-      image: "https://via.placeholder.com/150",
+      image: penImage,
     },
   ];
 
